@@ -1,10 +1,10 @@
 import React from "react";
-import { CSSTransitionGroup } from "react-transition-group";
+import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import "../styles/aboutStyle.css";
 
 const About = () => {
   return (
-    <CSSTransitionGroup
+    <ReactCSSTransitionGroup
       transitionName="aboutTransition"
       transitionAppear={true}
       transitionAppearTimeout={500}
@@ -12,7 +12,7 @@ const About = () => {
       transitionLeave={false}
     >
       <div className="about">About</div>
-    </CSSTransitionGroup>
+    </ReactCSSTransitionGroup>
   );
 };
 

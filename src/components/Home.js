@@ -1,10 +1,10 @@
 import React from "react";
-import { CSSTransitionGroup } from "react-transition-group";
+import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import "../styles/homeStyle.css";
 
 const Home = () => {
   return (
-    <CSSTransitionGroup
+    <ReactCSSTransitionGroup
       transitionName="homeTransition"
       transitionAppear={true}
       transitionAppearTimeout={500}
@@ -12,7 +12,7 @@ const Home = () => {
       transitionLeave={false}
     >
       <div>Home</div>
-    </CSSTransitionGroup>
+    </ReactCSSTransitionGroup>
   );
 };
 
