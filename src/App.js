@@ -2,23 +2,23 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
-import styled from "styled-components";
+import { styled, injectGlobal } from "styled-components";
+
+injectGlobal`
+  @font-face {
+    font-family:'Verdana, Geneva, sans-serif'
+  }
+  body {
+    margin: 0;
+  }
+`;
 
 const styles = {
   main: {
-    margin: 0,
-    padding: 0,
+    margin: "5pt",
     display: "flex",
     height: "100%",
     flexDirection: "column"
-  },
-  article: {
-    margin: "4px",
-    padding: "5px",
-    borderRadius: "7pt",
-    background: "red",
-    flex: 6,
-    alignItems: "stretch"
   }
 };
 

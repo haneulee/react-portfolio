@@ -3,19 +3,48 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const HeaderWrap = styled.header`
-  margin: 4px;
-  padding: 5px;
-  border-radius: 7pt;
-  background: green;
+  font-size: 15pt;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  & a:hover {
+    background: palevioletred;
+  }
+`;
+
+const Flex = styled.div`
   flex: 1;
 `;
+
+// const A = styled(Link)`
+//   color: black,
+//   text-decoration: none,
+//   padding: 0 5pt
+// `;
+
+const styles = {
+  link: {
+    color: "black",
+    textDecoration: "none",
+    padding: "0 5pt"
+  }
+};
 
 const Header = () => {
   return (
     <HeaderWrap>
-      <Link to="/">Home</Link>
-      <Link to="/works">Works</Link>
-      <Link to="/about">About</Link>
+      <Flex>
+        <Link style={styles.link} to="/">
+          HANEUL LEE
+        </Link>
+      </Flex>
+      <Link style={styles.link} to="/works">
+        works
+      </Link>
+      <Link style={styles.link} to="/about">
+        about
+      </Link>
+      <Flex />
     </HeaderWrap>
   );
 };
