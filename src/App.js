@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
-import { styled, injectGlobal } from "styled-components";
+import { injectGlobal } from "styled-components";
 
 injectGlobal`
   @font-face {
