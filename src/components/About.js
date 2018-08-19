@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import SocialButton from "./SocialIcon";
+import SocialButton from "./common/SocialIcon";
 import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import "../styles/aboutStyle.css";
 
@@ -27,17 +27,6 @@ const About = () => {
         />
 
         <h2>Haneul Lee</h2>
-        <br />
-        <p>
-          <a href="mailto:lovesky4294@gmail.com?Subject=Hello">
-            lovesky4294@gmail.com
-          </a>
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          <a href="https://docs.google.com/document/d/1FqCCSikpgLuGdrnUr5UdCa21grAn7l-YRJZ_uj3Vzwc/edit?usp=sharing">
-            Resume
-          </a>
-        </p>
-
         <br />
         <p>
           <strong>WORK EXPERIENCE</strong>
@@ -80,10 +69,16 @@ const About = () => {
         <p>Processing / Arduino</p>
         <p>Photoshop / Illustrator / After Effect</p>
 
+        <SocialButton url="mailto:lovesky4294@gmail.com?Subject=Hello" />
         <SocialButton url="https://facebook.com/haneul.lee.79677" />
         <SocialButton url="https://kr.pinterest.com/lovesky4294/" />
         <SocialButton url="https://linkedin.com/in/hnlee" />
         <SocialButton url="https://vimeo.com/haneullee" />
+        <p>
+          <a href="https://docs.google.com/document/d/1FqCCSikpgLuGdrnUr5UdCa21grAn7l-YRJZ_uj3Vzwc/edit?usp=sharing">
+            Resume
+          </a>
+        </p>
       </AboutWrap>
     </ReactCSSTransitionGroup>
   );

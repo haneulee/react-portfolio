@@ -1,20 +1,18 @@
 import React from "react";
 import ReactCSSTransitionGroup from "react-addons-css-transition-group";
-import "../styles/homeStyle.css";
-import Works from "./Works";
 
-const Home = () => {
+const WithUs = () => {
   return (
     <ReactCSSTransitionGroup
-      transitionName="homeTransition"
+      transitionName="aboutTransition"
       transitionAppear={true}
       transitionAppearTimeout={500}
       transitionEnter={false}
       transitionLeave={false}
     >
-      <Works />
+      <div>"WithUs"</div>
     </ReactCSSTransitionGroup>
   );
 };
 
-export default Home;
+export default WithUs;

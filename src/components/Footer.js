@@ -6,6 +6,7 @@ const FooterWrap = styled.footer`
   padding: 5px;
   flex: 1;
   align-self: center;
+  color: grey;
 `;
 
 const Footer = () => {

@@ -1,0 +1,25 @@
+{
+  "presets": ["env"],
+  "env": {
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "extensions": [".js", ".ios.js", ".android.js", ".ts", ".tsx"],
+        "alias": {
+          "src": "./src",
+          "components": "./src/components",
+          "common": "./src/components/common",
+          "works": "./src/components/works",
+          "styles": "./src/styles",
+          "image": "./src/image"
+        }
+      }
+    ]
+  ]
+}

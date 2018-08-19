@@ -1,6 +1,17 @@
 import React from "react";
+import Card from "./common/Card";
+import styled from "styled-components";
 import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 import "../styles/worksStyle.css";
+
+const WorkWrap = styled.div`
+  font-size: 15pt;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10pt;
+`;
 
 const Works = () => {
   return (
@@ -11,7 +22,25 @@ const Works = () => {
       transitionEnter={false}
       transitionLeave={false}
     >
-      <div>Works</div>
+      <WorkWrap>
+        <Card imgUrl={require("../image/works/work1.png")} linkUrl="/withUs" />
+        <Card
+          imgUrl={require("../image/works/work1.png")}
+          linkUrl="/soundableSeeing"
+        />
+        <Card
+          imgUrl={require("../image/works/colouredHearing.png")}
+          linkUrl="/colouredHearing"
+        />
+        <Card
+          imgUrl={require("../image/works/handLetter.gif")}
+          linkUrl="/handLetter"
+        />
+        <Card
+          imgUrl={require("../image/works/missLee.png")}
+          linkUrl="/missLee"
+        />
+      </WorkWrap>
     </ReactCSSTransitionGroup>
   );
 };
