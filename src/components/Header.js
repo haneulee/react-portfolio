@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const HeaderWrap = styled.header`
@@ -24,7 +24,7 @@ const Flex = styled.div`
 
 const styles = {
   link: {
-    color: "black",
+    color: "white",
     textDecoration: "none",
     padding: "0 5pt"
   }
@@ -34,16 +34,16 @@ const Header = () => {
   return (
     <HeaderWrap>
       <Flex>
-        <Link style={styles.link} to="/">
+        <NavLink style={styles.link} to="/">
           HANEUL LEE
-        </Link>
+        </NavLink>
       </Flex>
-      <Link style={styles.link} to="/works">
+      <NavLink style={styles.link} to="/works">
         works
-      </Link>
-      <Link style={styles.link} to="/about">
+      </NavLink>
+      <NavLink style={styles.link} to="/about">
         about
-      </Link>
+      </NavLink>
       <Flex />
     </HeaderWrap>
   );

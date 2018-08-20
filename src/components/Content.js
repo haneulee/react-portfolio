@@ -18,7 +18,7 @@ import MissLee from "./works/MissLee";
 
 const Content = () => {
   return (
-    <Switch>
+    <Switch location={this.props.location}>
       <Route exact path="/" component={Home} />
       <Route path="/works" component={Works} />
       <Route path="/about" component={About} />

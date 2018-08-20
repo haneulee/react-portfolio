@@ -25,12 +25,8 @@ const About = () => {
           width="100"
           height="100"
         />
-
-        <h2>Haneul Lee</h2>
-        <br />
-        <p>
-          <strong>WORK EXPERIENCE</strong>
-        </p>
+        <h2>Haneul Lee</h2> <br />
+        <h3>WORK EXPERIENCE</h3>
         <p>2013.12 ~ present</p>
         <p>Hancom Inc. in South Korea </p>
         <p>Staff Researcher, WebWrite Team</p>
@@ -51,30 +47,25 @@ const About = () => {
             Hancom corp.
           </a>
         </p>
-
         <br />
-        <p>
-          <strong>EDUCATION</strong>
-        </p>
+        <h3>EDUCATION</h3>
         <p>2009.03 ~ 2014.02</p>
         <p>Kongju National University</p>
         <p>Bachelor of Science in Radio Science Engineering</p>
-
         <br />
-        <p>
-          <strong>SKILLS</strong>
-        </p>
+        <h3>SKILLS</h3>
         <p>Java / Javascript / HTML / CSS</p>
         <p>jQuery / Underscore / Backbone / RequireJS / Qunit / React</p>
         <p>Processing / Arduino</p>
         <p>Photoshop / Illustrator / After Effect</p>
-
+        <br />
         <SocialButton url="mailto:lovesky4294@gmail.com?Subject=Hello" />
-        <SocialButton url="https://facebook.com/haneul.lee.79677" />
-        <SocialButton url="https://kr.pinterest.com/lovesky4294/" />
         <SocialButton url="https://linkedin.com/in/hnlee" />
         <SocialButton url="https://vimeo.com/haneullee" />
+        <SocialButton url="https://kr.pinterest.com/lovesky4294/" />
+        {/* <SocialButton url="https://facebook.com/haneul.lee.79677" /> */}
         <p>
+          <br />
           <a href="https://docs.google.com/document/d/1FqCCSikpgLuGdrnUr5UdCa21grAn7l-YRJZ_uj3Vzwc/edit?usp=sharing">
             Resume
           </a>

@@ -1,19 +1,13 @@
 import React from "react";
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
-import "../styles/homeStyle.css";
 import Works from "./Works";
+import Intro from "./Intro";
 
 const Home = () => {
   return (
-    <ReactCSSTransitionGroup
-      transitionName="homeTransition"
-      transitionAppear={true}
-      transitionAppearTimeout={500}
-      transitionEnter={false}
-      transitionLeave={false}
-    >
+    <div>
       <Works />
-    </ReactCSSTransitionGroup>
+      <Intro />
+    </div>
   );
 };
 

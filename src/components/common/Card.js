@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default class Card extends React.Component {
   render() {
@@ -8,7 +8,7 @@ export default class Card extends React.Component {
     };
 
     return (
-      <Link
+      <NavLink
         to={this.props.linkUrl}
         style={{ width: 100, height: 100, margin: 20 }}
       >
@@ -19,10 +19,10 @@ export default class Card extends React.Component {
           width="100"
           height="100"
         />
-        {/* <div style={{ width: 100, height: 100, margin: 20 }}>
-          {this.props.linkUrl}
-        </div> */}
-      </Link>
+      </NavLink>
+      //   <Route path={this.props.linkUrl} children={({ match }) => (
+      //     <Link replace={to === location.pathname} to={this.props.linkUrl}><Button>{to}</Button></Link>
+      // )}/>
     );
   }
 }
