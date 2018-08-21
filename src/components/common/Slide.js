@@ -40,13 +40,9 @@ const ButtonWrap = styled.div`
   display: block;
   margin: 15px auto;
   width: 10px;
-  & [on] {
-    background: #f00;
-  }
 `;
 
 const ButtonLink = styled.a`
-  background: #fff;
   display: block;
   width: 10px;
   height: 10px;
@@ -71,6 +67,7 @@ const Button = props => {
   return (
     <ButtonWrap>
       <ButtonLink
+        style={{ background: props.isColor ? "#f00" : "#fff" }}
         onClick={e => {
           let target = e.target.parentNode,
             parent = target ? target.parentNode : null,
@@ -78,14 +75,6 @@ const Button = props => {
               ? Array.prototype.slice.call(parent.childNodes, 0)
               : [],
             num = list.indexOf(target);
-
-          list.map((data, index) => {
-            if (index === num) {
-              data.setAttribute("on", "true");
-            } else {
-              data.setAttribute("on", "");
-            }
-          });
 
           props.context.setState({ translateValue: num, buttonList: list });
         }}
@@ -142,7 +131,11 @@ export default class Slide extends React.Component {
         </SlideWrapper>
         <ButtonWrapper>
           {this.props.list.map((data, index, arr) => (
-            <Button key={index} context={this} />
+            <Button
+              key={index}
+              context={this}
+              isColor={index === this.state.translateValue}
+            />
           ))}
         </ButtonWrapper>
       </div>
