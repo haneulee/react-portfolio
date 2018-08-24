@@ -20,13 +20,13 @@ injectGlobal`
   body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
   }
   *,
   h1 {margin: 0;padding: 0;box-sizing: border-box;}
   h1, h2, h3, h4{cursor: default;}
-  a {text-decoration: none;color: #fff;}
+  a {text-decoration: none;color: grey;}
   ul {list-style-type: none;}
   img {border: none;}
   html {font-size: 0.625em;}

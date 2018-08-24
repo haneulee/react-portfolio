@@ -6,6 +6,7 @@ import ReactCSSTransitionGroup from "react-addons-css-transition-group";
 const Container = styled.div`
   width: 100%;
   flex: 1;
+  padding: 20pt 0;
 `;
 
 const imgUrl = [

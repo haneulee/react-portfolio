@@ -31,7 +31,7 @@ const IntroWrap = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: palevioletred;
+  background: black;
   animation: 4s ${transition} linear 0s; /* 6 second per slide, 3 slides, total 18s */
   animation-fill-mode: forwards;
 `;

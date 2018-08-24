@@ -23,7 +23,7 @@ const Works = () => {
       transitionLeave={false}
     >
       <WorkWrap>
-        <Card imgUrl={require("../image/works/work1.png")} linkUrl="/withUs" />
+        <Card imgUrl={require("../image/works/withUs.png")} linkUrl="/withUs" />
         <Card
           imgUrl={require("../image/works/work1.png")}
           linkUrl="/soundableSeeing"

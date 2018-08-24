@@ -96,9 +96,7 @@ export default class Slide extends React.Component {
   }
 
   handleResize = () => {
-    let list = this.state.buttonList ? this.state.buttonList : [],
-      target = list ? list[this.state.translateValue] : null,
-      num = this.state.translateValue;
+    let num = this.state.translateValue;
 
     this.setState({
       height: window.innerHeight,

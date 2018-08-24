@@ -8,7 +8,11 @@ const HeaderWrap = styled.header`
   display: flex;
   flex-direction: row;
   & a:hover {
-    background: palevioletred;
+    color: grey;
+  }
+  & a {
+    color: black;
+    padding: 0 5pt;
   }
 `;
 
@@ -16,34 +20,14 @@ const Flex = styled.div`
   flex: 1;
 `;
 
-// const A = styled(Link)`
-//   color: black,
-//   text-decoration: none,
-//   padding: 0 5pt
-// `;
-
-const styles = {
-  link: {
-    color: "white",
-    textDecoration: "none",
-    padding: "0 5pt"
-  }
-};
-
 const Header = () => {
   return (
     <HeaderWrap>
       <Flex>
-        <NavLink style={styles.link} to="/">
-          HANEUL LEE
-        </NavLink>
+        <NavLink to="/">HANEUL LEE</NavLink>
       </Flex>
-      <NavLink style={styles.link} to="/works">
-        works
-      </NavLink>
-      <NavLink style={styles.link} to="/about">
-        about
-      </NavLink>
+      <NavLink to="/works">works</NavLink>
+      <NavLink to="/about">about</NavLink>
       <Flex />
     </HeaderWrap>
   );
