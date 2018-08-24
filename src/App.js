@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
 import { injectGlobal } from "styled-components";
+import { BrowserRouter as Router } from "react-router-dom";
 
 injectGlobal`
   @font-face {
@@ -44,11 +45,13 @@ const styles = {
 class App extends Component {
   render() {
     return (
-      <div style={styles.main}>
-        <Header />
-        <Content />
-        <Footer />
-      </div>
+      <Router>
+        <div style={styles.main}>
+          <Header />
+          <Content />
+          <Footer />
+        </div>
+      </Router>
     );
   }
 }
