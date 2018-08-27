@@ -67,7 +67,7 @@ const Button = props => {
   return (
     <ButtonWrap>
       <ButtonLink
-        style={{ background: props.isColor ? "#f00" : "#fff" }}
+        style={{ background: props.isColor ? "#f00" : "#0468BF" }}
         onClick={e => {
           let target = e.target.parentNode,
             parent = target ? target.parentNode : null,

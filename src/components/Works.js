@@ -25,11 +25,11 @@ const Works = () => {
       <WorkWrap>
         <Card imgUrl={require("../image/works/withUs.png")} linkUrl="/withUs" />
         <Card
-          imgUrl={require("../image/works/work1.png")}
+          imgUrl={require("../image/works/soundableSeeing.png")}
           linkUrl="/soundableSeeing"
         />
         <Card
-          imgUrl={require("../image/works/colouredHearing.png")}
+          imgUrl={require("../image/works/colouredHearing.jpg")}
           linkUrl="/colouredHearing"
         />
         <Card
