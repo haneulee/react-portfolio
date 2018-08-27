@@ -45,7 +45,7 @@ const styles = {
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="react-portfolio">
         <div style={styles.main}>
           <Header />
           <Content />
