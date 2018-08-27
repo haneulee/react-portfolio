@@ -26,8 +26,8 @@ const Header = () => {
       <Flex>
         <NavLink to="/">HANEUL LEE</NavLink>
       </Flex>
-      <NavLink to="/works">works</NavLink>
-      <NavLink to="/about">about</NavLink>
+      <NavLink to="/works">WORK</NavLink>
+      <NavLink to="/about">ABOUT</NavLink>
       <Flex />
     </HeaderWrap>
   );
