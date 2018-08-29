@@ -1,11 +1,11 @@
 import React from "react";
-import Works from "./Works";
+import Main from "./Main";
 import Intro from "./Intro";
 
 const Home = () => {
   return (
     <div>
-      <Works />
+      <Main />
       <Intro />
     </div>
   );

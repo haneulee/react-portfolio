@@ -7,6 +7,10 @@ const HeaderWrap = styled.header`
   flex: 1;
   display: flex;
   flex-direction: row;
+  text-transform: uppercase;
+  position: fixed;
+  width: 100%;
+  z-index: 900;
   & a:hover {
     color: grey;
   }
@@ -26,7 +30,7 @@ const Header = () => {
       <Flex>
         <NavLink to="/">HANEUL LEE</NavLink>
       </Flex>
-      <NavLink to="/works">WORK</NavLink>
+      <NavLink to="/main">WORK</NavLink>
       <NavLink to="/about">ABOUT</NavLink>
       <Flex />
     </HeaderWrap>

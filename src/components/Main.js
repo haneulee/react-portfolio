@@ -13,7 +13,7 @@ const WorkWrap = styled.div`
   padding: 10pt;
 `;
 
-const Works = () => {
+const Main = () => {
   return (
     <ReactCSSTransitionGroup
       transitionName="worksTransition"
@@ -45,4 +45,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default Main;
