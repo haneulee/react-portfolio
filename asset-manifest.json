@@ -1,16 +1,16 @@
 {
   "main.css": "static/css/main.d914e038.css",
   "main.css.map": "static/css/main.d914e038.css.map",
-  "main.js": "static/js/main.95f7a7c4.js",
-  "main.js.map": "static/js/main.95f7a7c4.js.map",
-  "static/media/1.jpg": "static/media/1.7cc0e74f.jpg",
-  "static/media/2.jpg": "static/media/2.eaa9e44b.jpg",
-  "static/media/3.jpg": "static/media/3.ee428554.jpg",
-  "static/media/4.jpg": "static/media/4.1dd40298.jpg",
-  "static/media/about1.png": "static/media/about1.fdbe6508.png",
-  "static/media/colouredHearing.jpg": "static/media/colouredHearing.f9c451d8.jpg",
-  "static/media/handLetter.gif": "static/media/handLetter.e953afc7.gif",
-  "static/media/missLee.png": "static/media/missLee.0edda03e.png",
-  "static/media/soundableSeeing.png": "static/media/soundableSeeing.2d92109b.png",
-  "static/media/withUs.png": "static/media/withUs.c1803970.png"
+  "main.js": "static/js/main.ef671467.js",
+  "main.js.map": "static/js/main.ef671467.js.map",
+  "static\\media\\1.jpg": "static/media/1.f64b0086.jpg",
+  "static\\media\\2.jpg": "static/media/2.ba2ffc6b.jpg",
+  "static\\media\\3.jpg": "static/media/3.14004b5f.jpg",
+  "static\\media\\4.jpg": "static/media/4.86dabc25.jpg",
+  "static\\media\\about1.png": "static/media/about1.fdbe6508.png",
+  "static\\media\\colouredHearing.jpg": "static/media/colouredHearing.f9c451d8.jpg",
+  "static\\media\\handLetter.gif": "static/media/handLetter.e953afc7.gif",
+  "static\\media\\missLee.png": "static/media/missLee.0edda03e.png",
+  "static\\media\\soundableSeeing.png": "static/media/soundableSeeing.2d92109b.png",
+  "static\\media\\withUs.png": "static/media/withUs.c1803970.png"
 }
