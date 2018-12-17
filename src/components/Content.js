@@ -3,13 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import Main from "./Main";
 import About from "./About";
-import {
-  WithUs,
-  SoundableSeeing,
-  ColouredHearing,
-  HandLetter,
-  MissLee
-} from "components/works";
+import { WithUs, SoundableSeeing, ColouredHearing, HandLetter, MissLee } from "components/works";
 
 const Content = () => {
   return (
